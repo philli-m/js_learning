@@ -14,7 +14,7 @@
 
     div[style*="margin: 16px"] {
       margin: 0px !important;
-      width: 412px!important;
+        width: 280 !important;
     }
 
     table {
@@ -26,86 +26,84 @@
     td {
       font-family: Arial, Helvetica, sans-serif !important;
     }
-
-    .responsive-image {
+	@media only screen and (min-width : 580px) {
+    *[class].responsive-image {
       width: auto !important;
-      max-height: 150px!important;
+      max-height: 150px !important;
+      display: block !important;
     }
-
+    *[class].three-col-tab {
+        text-align: left !important;
+      }
+    }
     @media only screen and (max-width: 600px) {
       *[class].deviceWidth {
-        width: 100%!important;
+        width: 100% !important;
       }
       *[class].deviceWidth1 {
-        width: 100%!important;
-        text-align: center!important;
+        width: 100% !important;
+        text-align: center !important;
       }
       *[class].deviceWidth2 {
         width: 98% !important;
-        text-align: center!important;
+        text-align: center !important;
       }
       *[class].deviceWidth3 {
         width: 100% !important;
       }
       *[class].height-placeholder {
-        height: 20px!important;
+        height: 20px !important;
+        line-height:20px !important;
       }
       *[class].width-placeholder {
-        display: none!important;
-      }
-      *[class].responsive-image {
-        display: block!important;
-        margin-left: auto!important;
-        margin-right: auto!important;
+        display: none !important;
       }
       *[class].three-col-tab {
         display: block !important;
+        margin: auto !important;
+        text-align: center !important;
       }
     }
 
     @media only screen and (max-width: 479px) {
       *[class].deviceWidth {
-        width: 288px!important;
-        margin: auto!important;
+        width: 200px !important;
+        float: left !important;
       }
       *[class].deviceWidth1 {
-        width: 100%!important;
-        text-align: center!important;
+        width: 100% !important;
+        text-align: center !important;
       }
       *[class].deviceWidth2 {
+        display: block !important;;
         width: 90% !important;
-        text-align: center!important;
+        text-align: center !important;
+        margin:auto !important;
       }
       *[class].height-placeholder {
-        height: 20px!important;
-      }
-      *[class].width-placeholder {
-        display: none!important;
-      }
-      *[class].responsive-image {
-        display: block!important;
-        margin-left: auto!important;
-        margin-right: auto!important;
+        height: 20px !important;
+        line-height:20px !important;
       }
       *[class].three-col-tab {
         display: block !important;
-        margin: auto!important;
-        text-align: center!important;
+        margin-left: auto !important;
+        text-align: center !important;
       }
       p[class].footer {
-        font-size: 10px!important;
+        font-size: 10px !important;
       }
     }
   </style>
+
 </head>
 
 <body style="margin:0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif">
   <!--Center Table-->
-  <table class="deviceWidth" width="100%" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto; border:1px solid #f4f4f4;">
+  <table width="100%" align="center" cellpadding="0" cellspacing="0" style="width: 100%">
     <tbody>
       <tr>
         <td>
-          <table class="deviceWidth" width="580" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto; border:1px solid #f4f4f4;">
+          <table class="deviceWidth" width="580" align="center" cellpadding="0" cellspacing="0" style=" border:1px solid #f4f4f4; width: 580px">
             <tbody>
               <tr>
                 <td>
@@ -221,12 +219,12 @@
                   <table class="deviceWidth1" width="100%" align="center " cellpadding="0 " cellspacing="0">
                     <tbody>
                       <tr>
-                        <td class="three-col-tab">
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 ">
                             <tbody>
                               <tr>
-                                <td>
-                                  <table cellspacing="0" cellpadding="0 " align="left">
+                                <td class="deviceWidth2">
+                                  <table cellspacing="0" cellpadding="0 ">
                                     <tbody>
                                       <tr>
                                         <td>
@@ -241,16 +239,16 @@
                                             <tbody>
                                               <tr>
                                                 <td>
-                                                  <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0">
+                                                  <table class="width-placeholder" cellpadding="0 " cellspacing="0">
                                                     <tbody>
                                                       <tr>
-                                                        <td style="font-size:1px;width: 45px;">&nbsp;</td>
+                                                        <td style="font-size:1px;width: 50px;">&nbsp;</td>
                                                       </tr>
                                                     </tbody>
                                                   </table>
                                                 </td>
-                                                <td style=" font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; font-size: 16px;">
-                                                  <div class="mktEditable" id="subhead3-second-sec">Accusantimum Iste Unde</div>
+                                                <td class="three-col-tab" style=" font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; font-size: 16px; text-align: center">
+                                                  <div class="mktEditable" id="subhead1-second-sec">Accusantimum Iste Unde Iste</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -262,7 +260,7 @@
                                               </tr>
                                             </tbody>
                                           </table>
-                                          <table cellpadding="0 " cellspacing="0" style="color:#555555; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                                          <table cellpadding="0 " cellspacing="0">
                                             <tbody>
                                               <tr>
                                                 <td>
@@ -274,8 +272,8 @@
                                                     </tbody>
                                                   </table>
                                                 </td>
-                                                <td>
-                                                  <div class="mktEditable " id="content3-second-sec">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
+                                                <td class="three-col-tab" style="color:#555555; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center; font-weight: normal">
+                                                  <div class="mktEditable " id="content1-second-sec">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -300,38 +298,58 @@
                                   </table>
                                 </td>
                               </tr>
+                              <tr>
+                                <td>
+                                  <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
+                                    <tbody>
+                                      <tr>
+                                        <td style="height:10px; font-size:1px; line-height:10px">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
                             </tbody>
                           </table>
-                        </td>
-                        <td class="three-col-tab">
+                        </th>
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 " style="margin-right: 0px; margin-left:0px; ">
                             <tbody>
                               <tr>
-                                <td>
+                                <td class="deviceWidth2">
                                   <table align="left" cellpadding="0" cellspacing="0">
                                     <tbody>
                                       <tr>
                                         <td>
-                                          <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 25px;">
+                                          <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 35px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:1px; width:25px">&nbsp;</td>
+                                                <td style="font-size:1px; width:35px">&nbsp;</td>
                                               </tr>
                                             </tbody>
                                           </table>
                                         </td>
-                                        <td>
+                                          <!--[if (gte mso 9)|(IE)]>
+											<td class="responsive-image"  style="display:block" >
                                           <div class="mktEditable ">
                                             <a href="javascript:void(0)">
-                                              <img class="responsive-image" src="https://www.placecage.com/g/140/100" alt="Logo " border="0 ">
+                                              <img src="http://www.fillmurray.com/g/140/100" alt="Logo " border="0 ">
+                                            </a>
+                                          </div>
+                                        </td>
+											<![endif]-->
+                                        <td class="responsive-image"  style="display:none" >
+                                          <div class="mktEditable ">
+                                            <a href="javascript:void(0)">
+                                              <img src="http://www.fillmurray.com/g/140/100" alt="Logo " border="0 ">
                                             </a>
                                           </div>
                                         </td>
                                         <td>
-                                          <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 50px;">
+                                          <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 60px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:1px; width:20px">&nbsp;</td>
+                                                <td style="font-size:1px; width:60px">&nbsp;</td>
                                               </tr>
                                             </tbody>
                                           </table>
@@ -343,7 +361,7 @@
                               </tr>
                             </tbody>
                           </table>
-                        </td>
+                        </th>
                       </tr>
                     </tbody>
                   </table>
@@ -353,7 +371,7 @@
                   <table align="center " cellpadding="0 " cellspacing="0" style="width: 100% ">
                     <tbody>
                       <tr>
-                        <td style="height:60px; font-size:1px; line-height:60px">&nbsp;</td>
+                        <td class="height-placeholder" style="height:60px; font-size:1px; line-height:60px">&nbsp;</td>
                       </tr>
                     </tbody>
                   </table>
@@ -362,39 +380,59 @@
                   <table class="deviceWidth1" width="100%" align="center " cellpadding="0 " cellspacing="0">
                     <tbody>
                       <tr>
-                        <td class="three-col-tab">
+                        <td class="deviceWidth2">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 ">
                             <tbody>
                               <tr>
-                                <td class="three-col-tab">
+                                <th class="three-col-tab">
                                   <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 " style="margin-right: 0px; margin-left:0px; ">
                                     <tbody>
                                       <tr>
                                         <td>
-                                          <table align="left" cellpadding="0" cellspacing="0">
+                                          <table class="three-col-tab" cellpadding="0" cellspacing="0">
                                             <tbody>
                                               <tr>
                                                 <td>
                                                   <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 60px;">
                                                     <tbody>
                                                       <tr>
-                                                        <td style="font-size:1px; width:25px">&nbsp;</td>
+                                                        <td style="font-size:1px; width:60px">&nbsp;</td>
                                                       </tr>
                                                     </tbody>
                                                   </table>
                                                 </td>
-                                                <td>
+                                                  <!--[if (gte mso 9)|(IE)]>
+                                            <td class="responsive-image"  style="display:block" >
+                                          <div class="mktEditable ">
+                                            <a href="javascript:void(0)">
+                                              <img src="http://www.fillmurray.com/g/140/100" alt="Logo " border="0 ">
+                                            </a>
+                                          </div>
+                                        </td>
+                                            <![endif]-->
+                                                <td class="responsive-image"  style="display:none">
                                                   <div class="mktEditable ">
                                                     <a href="javascript:void(0)">
-                                                      <img class="responsive-image" src="https://www.placecage.com/g/140/100" alt="Logo " border="0 ">
+                                                      <img src="http://www.fillmurray.com/g/140/100" alt="Logo " border="0 ">
                                                     </a>
                                                   </div>
                                                 </td>
                                                 <td>
-                                                  <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 50px;">
+                                                  <table class="width-placeholder"  align="left" cellpadding="0 " cellspacing="0" style="width: 35px;">
                                                     <tbody>
                                                       <tr>
-                                                        <td style="font-size:1px; width:25px">&nbsp;</td>
+                                                        <td style="font-size:1px; width:35px">&nbsp;</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                  <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="height:10px; font-size:1px; line-height:10px">&nbsp;</td>
                                                       </tr>
                                                     </tbody>
                                                   </table>
@@ -406,8 +444,8 @@
                                       </tr>
                                     </tbody>
                                   </table>
-                                </td>
-                                <td class="three-col-tab">
+                                </th>
+                                <th class="three-col-tab">
                                   <table cellspacing="0" cellpadding="0 " align="left">
                                     <tbody>
                                       <tr>
@@ -422,8 +460,17 @@
                                           <table cellpadding="0 " cellspacing="0" style="width: 100%;">
                                             <tbody>
                                               <tr>
-                                                <td style=" font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; font-size: 16px;">
-                                                  <div class="mktEditable" id="subhead3-second-sec">Accusantimum Iste Unde</div>
+                                                <td class="three-col-tab" style=" font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; font-size: 16px; text-align: center">
+                                                  <div class="mktEditable" id="subhead2-second-sec">Accusantimum Iste Unde Iste</div>
+                                                </td>
+                                                  <td>
+                                                  <table class="width-placeholder" cellpadding="0 " cellspacing="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="font-size:1px;width: 35px;">&nbsp;</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -435,14 +482,14 @@
                                               </tr>
                                             </tbody>
                                           </table>
-                                          <table cellpadding="0 " cellspacing="0" style="color:#555555; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                                          <table cellpadding="0 " cellspacing="0">
                                             <tbody>
                                               <tr>
-                                                <td>
-                                                  <div class="mktEditable " id="content3-second-sec">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
+                                                <td class="three-col-tab" style="color:#555555; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center; font-weight: normal">
+                                                  <div class="mktEditable " id="content2-second-sec">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
                                                 </td>
                                                 <td>
-                                                  <table class="lwidth-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 50px;">
+                                                  <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 50px;">
                                                     <tbody>
                                                       <tr>
                                                         <td style="font-size:1px; width:50px">&nbsp;</td>
@@ -460,10 +507,7 @@
                                               </tr>
                                             </tbody>
                                           </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
+
                                   <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" width="20">
                                     <tbody>
                                       <tr>
@@ -471,7 +515,11 @@
                                       </tr>
                                     </tbody>
                                   </table>
-                                </td>
+                                            </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </th>
                               </tr>
                             </tbody>
                           </table>
@@ -485,7 +533,7 @@
                   <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
                     <tbody>
                       <tr>
-                        <td style="height:60px; font-size:1px; line-height:60px">&nbsp;</td>
+                        <td class="height-placeholder" style="height:60px; font-size:1px; line-height:60px">&nbsp;</td>
                       </tr>
                     </tbody>
                   </table>
@@ -494,11 +542,11 @@
                   <table class="deviceWidth1" width="100%" align="center " cellpadding="0 " cellspacing="0">
                     <tbody>
                       <tr>
-                        <td class="three-col-tab">
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 ">
                             <tbody>
                               <tr>
-                                <td>
+                                <td class="deviceWidth2">
                                   <table cellspacing="0" cellpadding="0 " align="left">
                                     <tbody>
                                       <tr>
@@ -517,13 +565,13 @@
                                                   <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0">
                                                     <tbody>
                                                       <tr>
-                                                        <td style="font-size:1px;width: 45px;">&nbsp;</td>
+                                                        <td style="font-size:1px;width: 50px;">&nbsp;</td>
                                                       </tr>
                                                     </tbody>
                                                   </table>
                                                 </td>
-                                                <td style=" font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; font-size: 16px;">
-                                                  <div class="mktEditable" id="subhead3-second-sec">Accusantimum Iste Unde</div>
+                                                <td class="three-col-tab" style=" font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #333333; font-size: 16px; text-align: center">
+                                                  <div class="mktEditable" id="subhead3-second-sec">Accusantimum Iste Unde Iste</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -535,7 +583,7 @@
                                               </tr>
                                             </tbody>
                                           </table>
-                                          <table cellpadding="0 " cellspacing="0" style="color:#555555; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                                          <table cellpadding="0 " cellspacing="0">
                                             <tbody>
                                               <tr>
                                                 <td>
@@ -547,7 +595,7 @@
                                                     </tbody>
                                                   </table>
                                                 </td>
-                                                <td>
+                                                <td class="three-col-tab" style="color:#555555; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center; font-weight: normal ">
                                                   <div class="mktEditable " id="content3-second-sec">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
                                                 </td>
                                               </tr>
@@ -573,38 +621,58 @@
                                   </table>
                                 </td>
                               </tr>
+                              <tr>
+                                <td>
+                                  <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
+                                    <tbody>
+                                      <tr>
+                                        <td style="height:10px; font-size:1px; line-height:10px">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
                             </tbody>
                           </table>
-                        </td>
-                        <td class="three-col-tab">
+                        </th>
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 " style="margin-right: 0px; margin-left:0px; ">
                             <tbody>
                               <tr>
-                                <td>
+                                <td class="deviceWidth2">
                                   <table align="left" cellpadding="0" cellspacing="0">
                                     <tbody>
                                       <tr>
                                         <td>
-                                          <table class="lwidth-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 25px;">
+                                          <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 35px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:1px; width:25px">&nbsp;</td>
+                                                <td style="font-size:1px; width:35px">&nbsp;</td>
                                               </tr>
                                             </tbody>
                                           </table>
                                         </td>
-                                        <td>
+                                          <!--[if (gte mso 9)|(IE)]>
+                                            <td class="responsive-image"  style="display:block" >
                                           <div class="mktEditable ">
                                             <a href="javascript:void(0)">
-                                              <img class="responsive-image" src="https://www.placecage.com/g/140/100" alt="Logo " border="0 ">
+                                              <img src="http://www.fillmurray.com/g/140/100" alt="Logo " border="0 ">
+                                            </a>
+                                          </div>
+                                        </td>
+                                            <![endif]-->
+                                        <td class="responsive-image" style="display:none">
+                                          <div class="mktEditable ">
+                                            <a href="javascript:void(0)">
+                                              <img  src="http://www.fillmurray.com/g/140/100" alt="Logo " border="0 ">
                                             </a>
                                           </div>
                                         </td>
                                         <td>
-                                          <table class="lwidth-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 50px;">
+                                          <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 60px;">
                                             <tbody>
                                               <tr>
-                                                <td style="font-size:1px; width:20px">&nbsp;</td>
+                                                <td style="font-size:1px; width:60px">&nbsp;</td>
                                               </tr>
                                             </tbody>
                                           </table>
@@ -616,16 +684,16 @@
                               </tr>
                             </tbody>
                           </table>
-                        </td>
+                        </th>
                       </tr>
                     </tbody>
                   </table>
 
 
-                  <table class="height-placeholder" cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
+                  <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
                     <tbody>
                       <tr>
-                        <td style="height:100px; font-size:1px; line-height:100px">&nbsp;</td>
+                        <td class="height-placeholder" style="height:100px; font-size:1px; line-height:100px">&nbsp;</td>
                       </tr>
                     </tbody>
                   </table>
@@ -635,11 +703,12 @@
                   <table class="deviceWidth1" width="100%" align="center " cellpadding="0 " cellspacing="0" bgcolor="#f0f7f7" style="color: #00444d;">
                     <tbody>
                       <tr>
-                        <td class="three-col-tab">
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 ">
                             <tbody>
                               <tr>
-                                <td>
+
+                                <td class="deviceWidth2">
                                   <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
                                     <tbody>
                                       <tr>
@@ -666,8 +735,8 @@
                                   <table cellpadding="0" cellspacing="0" style="width: 100%">
                                     <tbody>
                                       <tr>
-                                        <td style="font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center">
-                                          <div class="mktEditable" id="content1-third-sec">Ande ut perspiciatis unde omnis iste natus </div>
+                                        <td style="font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: center; font-weight: normal">
+                                          <div class="mktEditable" id="content1-third-sec">Ande ut perspiciatis unde omnis i natus </div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -676,12 +745,13 @@
                               </tr>
                             </tbody>
                           </table>
-                        </td>
-                        <td class="three-col-tab">
+                        </th>
+
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 " style="margin-right: 0px; margin-left:0px; ">
                             <tbody>
                               <tr>
-                                <td>
+                                <td class="deviceWidth2">
                                   <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
                                     <tbody>
                                       <tr>
@@ -708,8 +778,8 @@
                                   <table cellpadding="0" cellspacing="0" style="width: 100%; margin-right: 0px; margin-left:0px">
                                     <tbody>
                                       <tr>
-                                        <td style="font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center">
-                                          <div class="mktEditable" id="content2-third-sec">Ande ut perspiciatis unde omnis iste natus </div>
+                                        <td style="font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; font-weight: normal">
+                                          <div class="mktEditable" id="content2-third-sec">Ande ut perspiciatis unde omnis i natus </div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -718,12 +788,13 @@
                               </tr>
                             </tbody>
                           </table>
-                        </td>
-                        <td class="three-col-tab">
+                        </th>
+
+                        <th class="three-col-tab">
                           <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 ">
                             <tbody>
                               <tr>
-                                <td>
+                                <td class="deviceWidth2">
                                   <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
                                     <tbody>
                                       <tr>
@@ -750,8 +821,8 @@
                                   <table cellpadding="0" cellspacing="0" style="width: 100%">
                                     <tbody>
                                       <tr>
-                                        <td style="font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center">
-                                          <div class="mktEditable" id="content3-third-sec">Ande ut perspiciatis unde omnis iste natus </div>
+                                        <td style="font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; font-weight: normal">
+                                          <div class="mktEditable" id="content3-third-sec">Ande ut perspiciatis unde omnis i natus </div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -760,7 +831,7 @@
                               </tr>
                             </tbody>
                           </table>
-                        </td>
+                        </th>
                       </tr>
                       <tr>
                         <td>
@@ -788,10 +859,10 @@
                               </tr>
                             </tbody>
                           </table>
-                          <table cellpadding="0" cellspacing="0" align="center" class="deviceWidth2" style="margin:auto">
+                          <table cellpadding="0" cellspacing="0" align="center" style="margin:auto">
                             <tbody>
                               <tr>
-                                <td align="center" style=" width:400px; font-size:20px; font-weight: bold; line-height:34px; font-family: Helvetica, Arial, sans-serif; text-align:center; color:#222222;">
+                                <td class="deviceWidth2" align="center" style=" width:400px; font-size:20px; font-weight: bold; line-height:34px; font-family: Helvetica, Arial, sans-serif; text-align:center; color:#222222">
                                   <div class="mktEditable" id="header-fourth-sec">Lorem Ipsum Dolor Amet Consectetur Adipisicing.</div>
                                 </td>
                               </tr>
@@ -849,10 +920,10 @@
                               </tr>
                             </tbody>
                           </table>
-                          <table class="deviceWidth2" align="center" style="font-size:9px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; color:#c1c1c1; text-align: center">
+                          <table align="center" style="font-size:9px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; color:#c1c1c1; text-align: center">
                             <tbody>
                               <tr>
-                                <td>
+                                <td class="deviceWidth2">
                                   <div class="mktEditable footer" id="footer-content-1">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
                                   <div class="mktEditable footer" id="footer-content-2">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
                                   <div class="mktEditable footer" id="footer-content-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex </div>
@@ -879,9 +950,6 @@
       </tr>
     </tbody>
   </table>
-
-
-
 </body>
 
 </html>
