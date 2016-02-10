@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="viewport" content="width=deviceWidth, initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title></title>
+  <style type="text/css">
+    body {
+      margin: 0 !important;
+    }
+
+    div[style*="margin: 16px"] {
+      margin: 0px !important;
+        width: 280 !important;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    body,
+    table,
+    td {
+      font-family: Arial, Helvetica, sans-serif !important;
+    }
+    @media only screen and (min-width : 580px) {
+    *[class].responsive-image {
+      width: auto !important;
+      max-height: 150px !important;
+      display: block !important;
+    }
+    *[class].three-col-tab {
+        text-align: left !important;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      *[class].deviceWidth {
+        width: 100% !important;
+      }
+      *[class].deviceWidth1 {
+        width: 100% !important;
+      }
+      *[class].deviceWidth2 {
+        width: 98% !important;
+      }
+      *[class].deviceWidth3 {
+        width: 100% !important;
+      }
+      *[class].height-placeholder {
+        height: 20px !important;
+        line-height:20px !important;
+      }
+      *[class].width-placeholder {
+        display: none !important;
+      }
+      *[class].three-col-tab {
+        display: block !important;
+        margin: auto !important;
+      }
+    }
+
+    @media only screen and (max-width: 479px) {
+      *[class].deviceWidth {
+        width: 200px !important;
+        float: left !important;
+      }
+      *[class].deviceWidth1 {
+        width: 100% !important;
+      }
+      *[class].deviceWidth2 {
+        display: block !important;;
+        width: 90% !important;
+        margin:auto !important;
+      }
+      *[class].height-placeholder {
+        height: 20px !important;
+        line-height:20px !important;
+      }
+      *[class].three-col-tab {
+        display: block !important;
+        margin-left: auto !important;
+        padding-left: 10px !important;
+      }
+      p[class].footer {
+        font-size: 10px !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body style="margin:0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <!--Center Table-->
+  <table width="100%" align="center" cellpadding="0" cellspacing="0" style="width: 100%">
+    <tbody>
+      <tr>
+        <td>
+          <table class="deviceWidth" width="580" align="center" cellpadding="0" cellspacing="0" style=" border:1px solid #f4f4f4; width: 580px">
+            <tbody>
+              <tr>
+                <td>
+                  <!-- Logo -->
+                  <table class="deviceWidth1" align="center" cellpadding="0" cellspacing="0" style="margin:auto;">
+                    <tbody>
+                      <tr>
+                        <td align="center" style=" padding:5px">
+                          <div class="mktEditable" id="logo">
+                            <a href="" target="blank">
+                              <img src="http://business.researchgate.net/rs/931-FMK-151/images/logosmallergreen.png" alt="Logo" border="0"/>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- section 1 - first call to action  -->
+
+                  <table cellpadding="0" width="100%" cellspacing="0" align="center" class="deviceWidth1" bgcolor="#F2F7FA" style="margin-left: 0px; margin-right: 0px; ">
+                    <tbody>
+                      <tr>
+                        <td width="100%">
+                          <table cellpadding="0" cellspacing="0" align="center" style="width: 100% ">
+                            <tbody>
+                              <tr>
+                                <td style="height:50px; font-size:1px; line-height: 50px">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table cellpadding="0" cellspacing="0" align="center" style="margin:auto; width:400px ">
+                            <tbody>
+                              <tr>
+                                <td class="deviceWidth2" align="center" style="font-size:24px; line-height:34px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; color:#222222; font-weight:bold">
+                                  <div class="mktEditable" id="header-first-sec">Your Candidate Reach Report</div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table cellpadding="0" cellspacing="0" align="center" style="width: 100% ">
+                            <tbody>
+                              <tr>
+                                <td style="height:25px; font-size:1px; line-height: 25px">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table cellpadding="0" cellspacing="0" align="center" class="deviceWidth1" style="margin:auto; color: #ffffff;">
+                            <tbody>
+                              <tr>
+                                <td align="center">
+  <table class="mail-button-container" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="mail-button" align="center" height="35px" bgcolor="#1680fb" style="width: 250px; padding: 0; background-color: #1680fb; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 2px 0 0 #004cb6; -moz-box-shadow: 0 2px 0 0 #004cb6; box-shadow: 0 2px 0 0 #004cb6; border: 0px solid #007cff">
+
+        <!--[if (gte mso 9)|(IE)]>
+            <table>
+                <tbody>
+                    <tr>
+                         <td style="height:5px; font-size:1px; line-height: 5px">&nbsp;</td>
+                              </tr>
+                    <tr>
+                    	<td>
+<![endif]-->
+        <a href="..." style="text-align: center; display: block; text-decoration: none; height: 100% !important; line-height: 32px; color: #ffffff; margin: 0; font-family: helvetica, arial, sans-serif; width: 100%; font-size: 16px; -webkit-font-smoothing: antialiased" >
+                Download PDF Report
+            </a>
+        <!--[if (gte mso 9)|(IE)]>
+                    	</td>
+                    </tr>
+                    <tr>
+                         <td style="height:5px; font-size:1px; line-height: 5px">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+<![endif]-->
+  </td>
+</tr>
+</table>
+</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table cellpadding="0" cellspacing="0" align="center" style="width: 100% ">
+                            <tbody>
+                              <tr>
+                                <td style="height:50px; font-size:1px; line-height: 50px">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!--Second Section-->
+
+
+                  <table class="deviceWidth1" width="580" align="center " cellpadding="0 " cellspacing="0">
+                    <tbody>
+
+                    </tbody>
+                  </table>
+
+                  <table align="center " cellpadding="0 " cellspacing="0" style="width: 100% ">
+                    <tbody>
+                      <tr>
+                        <td style="height:50px; font-size:1px; line-height:50px">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="deviceWidth1" width="100%" align="center " cellpadding="0 " cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <th class="three-col-tab">
+                          <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth1 ">
+                            <tbody>
+                              <tr>
+                                <td class="deviceWidth2">
+                                  <table cellspacing="0" cellpadding="0 ">
+                                    <tbody>
+                                      <tr>
+                                        <td>
+
+
+
+                                          <table cellpadding="0 " cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td>
+                                                  <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 60px;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="font-size:1px; width:20px">&nbsp;</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                                <td class="three-col-tab" style="color:#555555; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left; font-weight: normal; line-height:22px;">
+                                                  <div class="mktEditable " id="content1-second-sec">Ande ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti umtotam.</div>
+                                                </td>
+<td>
+                                                  <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" style="width: 60px;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="font-size:1px; width:20px">&nbsp;</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <table cellpadding="0 " cellspacing="0" align="center" style="width: 100% ">
+                                            <tbody>
+                                              <tr>
+                                                <td style="height:10px; font-size:1px; line-height:10px">&nbsp;</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="width-placeholder" align="left" cellpadding="0 " cellspacing="0" width="20">
+                                    <tbody>
+                                      <tr>
+                                        <td style="font-size:1px;">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </th>
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+
+                  <table align="center " cellpadding="0 " cellspacing="0" style="width: 85%; margin:auto;">
+                    <tbody>
+                      <tr>
+                        <td class="height-placeholder" style="height:60px; font-size:1px; line-height:60px; border-bottom: 1px solid #f4f4f4;  ">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- legal section -->
+                  <table cellpadding="0" width="100%" cellspacing="0" align="center" class="deviceWidth1" >
+                    <tbody>
+                      <tr>
+                        <td>
+
+                          <!--footer-->
+                          <table class="deviceWidth1" cellpadding="0" cellspacing="0" align="center">
+                            <tbody>
+                              <tr>
+                                <td style="height:10px; font-size:1px; line-height:10px">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="deviceWidth2" align="center" style="font-size:9px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:center; color:#c1c1c1; text-align: center; line-height:12px;">
+                            <tbody>
+                              <tr>
+                                <td class="deviceWidth2">
+                                  <div class="mktEditable footer" id="footer-content-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie scelerisque nibh, non feugiat lorem dictum sed. Maecenas dapibus et mi sit amet efficitur. Etiam imperdiet, ligula vel posuere volutpat, ligula orci sagittis tellus, sit amet </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+<table cellpadding="0" cellspacing="0" align="center" style="width: 100% ">
+                            <tbody>
+                              <tr>
+                                <td style="height:25px; font-size:1px; line-height: 25px">&nbsp;
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
